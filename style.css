@@ -1,0 +1,76 @@
+body{background: url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
+    background-size: auto;}
+
+    .profile{border: 5px solid #7a3855a8;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 180px;
+    width:200px;
+background-color:#8148614b;
+position:absolute;
+top:15%;
+left:25%;
+box-shadow: 10px 10px 20px 5px #141814 ; }
+
+.smaller-image{width:150px;
+height:150px;
+position:absolute;
+top:30px;
+left:30px;
+border-radius:50%;
+border: 2px solid #7e3856;
+box-shadow:4px 4px 6px rgba(82, 18, 43, 0.5);}
+
+.Name{text-align: justify;
+position:absolute;
+top: 25px;
+left:200px;
+font-size:30px;
+font-family:'Smooch Sans', sans-serif;
+font-weight:500;
+text-align: justify;
+color:#ddc0cd}
+
+.Born{text-align: justify;
+position:absolute;
+top: 55px;
+left:200px;
+font-size:30px;
+font-family:'Smooch Sans', sans-serif;
+font-weight:500;
+text-align: justify;
+color:#ddc0cd}
+    
+.Level{text-align: justify;
+position:absolute;
+top: 85px;
+left: 200px;
+font-size:30px;
+font-family:'Smooch Sans', sans-serif;
+font-weight:500;
+text-align: justify;
+color:#ddc0cd}
+
+.Description{text-align: justify;
+position:absolute;
+top: 180px;
+left: 40px;
+right: 40px;
+font-size:30px;
+font-family:'Smooch Sans', sans-serif;
+font-weight:500;
+text-align: justify;
+color:#ddc0cd;
+background-color:#7a305031;
+border-radius:5px;
+}
+.bold{color:#7a3050}
+
+.profile:hover {animation-name: shine;
+  animation-duration:4s;
+  }
+  @keyframes shine{0%{background-color:#814861b7;}
+  25%{background-color:#85566ac9; }
+  50%{background-color:#835d6dc0;}
+  75%{background-color:#85566ac9;  }
+  100%{background-color:#814861b7;}}
